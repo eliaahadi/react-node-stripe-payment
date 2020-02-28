@@ -1,0 +1,41 @@
+{
+  "name": "react-node-stripe-payment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build public/index.html --out-dir build --no-source-maps",
+    "dev": "node src/server.js & parcel public/index.html",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliaahadi/react-node-stripe-payment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliaahadi/react-node-stripe-payment/issues"
+  },
+  "homepage": "https://github.com/eliaahadi/react-node-stripe-payment#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "history": "^4.10.1",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2",
+    "react-stripe-elements": "^6.1.0",
+    "stripe": "^8.23.0"
+  },
+  "devDependencies": {
+    "sass": "^1.26.1"
+  }
+}
